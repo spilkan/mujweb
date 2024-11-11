@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    color: white;
+   
+}
+header {
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 3rem;
+    color: rgb(163, 230, 53);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+section {
+    min-height: 100vh;
+    padding: 5rem 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home {
+    min-height: 100vh;
+    padding: 5rem 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home-content h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span {
+    color: rgb(163, 230, 53);
+}
+
+.home-content p {
+    font-size: 1.6rem;
+}
+
+.home-img img {
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #b74b4b;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.home-img img:hover {
+    transform: scale(1.05);
+}
+
+
+.contact {
+    padding: 2rem 9%;
+    color: white;
+    margin-top: 3rem;
+
+}
+.contact h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.contact p {
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.contact a {
+    color: rgb(163, 230, 53);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact a:hover {
+    color: white;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.contact ul li {
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+}
+
+.contact ul li a {
+    color: rgb(163, 230, 53);
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}

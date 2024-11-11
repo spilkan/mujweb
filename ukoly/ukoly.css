@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+}
+
+header {
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    color: rgb(163, 230, 53);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.ukoly {
+    padding: 2rem 9%;
+}
+
+.ukoly h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(163, 230, 53);
+}
+
+.ukoly ul {
+    list-style-type: none;
+}
+
+.ukoly ul li {
+    margin-bottom: 1rem;
+}
+
+.ukoly ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.ukoly ul li a:hover {
+    color: rgb(163, 230, 53);
+    text-decoration: underline;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulačka</title>
+</head>
+<body>
+    <h1>Kalkulačka</h1>
+
+    <label for="cislo1">Číslo 1:</label>
+    <input type="cislo" id="cislo1">
+
+    <label for="operace">Operace:</label>
+    <select id="operace">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+
+    <label for="cislo2">Číslo 2:</label>
+    <input type="cislo" id="cislo2">
+
+    <button onclick="calculate()">Vypočítat</button>
+
+    <h2>Výsledek: <span id="vysledek"></span></h2>
+
+    <script src="kalkulacka.js"></script>
+</body>
+</html>
